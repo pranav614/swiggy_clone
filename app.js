@@ -6,7 +6,7 @@ import Header from './components/Header';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import About from './components/About';
 import Menu from './components/Menu';
-import myStore from './utils/myStore'
+import myStore from './utils/myStore';
 import { Outlet } from 'react-router-dom';
 import RestaurantCart from './components/RestaurantCart';
 import UserContext from './utils/UserContext';
