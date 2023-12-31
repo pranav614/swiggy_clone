@@ -3,7 +3,7 @@ import AllCartItems from "./AllCartItems";
 import cartLogo from '../images/nocart.jpg';
 import { Link } from "react-router-dom";
 import useRestaurantCart from "../customHooks/useRestaurantCart";
-import { useSelector, useStore } from "react-redux";
+import { useSelector } from "react-redux";
 
 
 const RestaurantCart = () => {

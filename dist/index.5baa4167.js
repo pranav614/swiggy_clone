@@ -2954,8 +2954,6 @@ var _headerDefault = parcelHelpers.interopDefault(_header);
 var _reactRouterDom = require("react-router-dom");
 var _about = require("./components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
-var _error = require("./components/error");
-var _errorDefault = parcelHelpers.interopDefault(_error);
 var _menu = require("./components/Menu");
 var _menuDefault = parcelHelpers.interopDefault(_menu);
 var _myStore = require("./utils/myStore");
@@ -2996,32 +2994,32 @@ const MainComponent = ()=>{
                 children: [
                     largerScreen ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 23
                     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mobileHeaderDefault.default), {}, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 36
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 39,
+                        lineNumber: 38,
                         columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "app.js",
-                lineNumber: 37,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined)
         }, void 0, false, {
             fileName: "app.js",
-            lineNumber: 36,
+            lineNumber: 35,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 35,
+        lineNumber: 34,
         columnNumber: 7
     }, undefined);
 };
@@ -3036,7 +3034,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MainComponent, {}, void 0, false, {
             fileName: "app.js",
-            lineNumber: 48,
+            lineNumber: 47,
             columnNumber: 13
         }, undefined),
         children: [
@@ -3044,7 +3042,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 52,
+                    lineNumber: 51,
                     columnNumber: 17
                 }, undefined)
             },
@@ -3052,7 +3050,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/about",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 56,
+                    lineNumber: 55,
                     columnNumber: 17
                 }, undefined)
             },
@@ -3064,12 +3062,12 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                     }, void 0, false, void 0, void 0),
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Grocery, {}, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 60,
+                        lineNumber: 59,
                         columnNumber: 60
                     }, undefined)
                 }, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 60,
+                    lineNumber: 59,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3077,7 +3075,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/cart",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantCartDefault.default), {}, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 64,
+                    lineNumber: 63,
                     columnNumber: 17
                 }, undefined)
             },
@@ -3085,14 +3083,14 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/menu/:resId",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuDefault.default), {}, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 69,
+                    lineNumber: 68,
                     columnNumber: 17
                 }, undefined)
             }
         ],
-        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
+        errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Error, {}, void 0, false, {
             fileName: "app.js",
-            lineNumber: 73,
+            lineNumber: 72,
             columnNumber: 18
         }, undefined)
     }
@@ -3102,7 +3100,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "app.js",
-    lineNumber: 80,
+    lineNumber: 79,
     columnNumber: 13
 }, undefined));
 var _c, _c1;
@@ -3114,7 +3112,7 @@ $RefreshReg$(_c1, "MainComponent");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Body":"iJj2X","./components/Header":"kKyxu","react-router-dom":"9xmpe","./components/About":"hGILx","./components/error":"6WzUW","./components/Menu":"1px0M","./utils/myStore":"1AtsI","./components/RestaurantCart":"4wBed","./utils/UserContext":"7To3X","react-redux":"bdVon","react-responsive":"jgC6H","./components/Header/MobileHeader":"b9tTO","5f4852d2a2a5d50b":"5rciY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Body":"iJj2X","./components/Header":"kKyxu","react-router-dom":"9xmpe","./components/About":"hGILx","./components/Menu":"1px0M","./utils/myStore":"1AtsI","./components/RestaurantCart":"4wBed","./utils/UserContext":"7To3X","react-redux":"bdVon","react-responsive":"jgC6H","./components/Header/MobileHeader":"b9tTO","5f4852d2a2a5d50b":"5rciY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -37393,8 +37391,6 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _userClass = require("../UserClass");
-var _userClassDefault = parcelHelpers.interopDefault(_userClass);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const About = ()=>{
@@ -37408,41 +37404,41 @@ const About = ()=>{
                 children: "About Us"
             }, void 0, false, {
                 fileName: "components/About.js",
-                lineNumber: 7,
+                lineNumber: 6,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Welcome to Swiggy Clone - your one-stop solution for food delivery! We are passionate about connecting people with the best restaurants in town."
             }, void 0, false, {
                 fileName: "components/About.js",
-                lineNumber: 8,
+                lineNumber: 7,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Our mission is to make food ordering and delivery quick, easy, and reliable. Whether you're craving your favorite local dish or exploring new flavors, we've got you covered."
             }, void 0, false, {
                 fileName: "components/About.js",
-                lineNumber: 13,
+                lineNumber: 12,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "At Swiggy Clone, we prioritize customer satisfaction. Our platform is designed to provide a seamless experience, from browsing menus to doorstep delivery."
             }, void 0, false, {
                 fileName: "components/About.js",
-                lineNumber: 18,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Thank you for choosing Swiggy Clone. We look forward to serving you and making your dining experience exceptional!"
             }, void 0, false, {
                 fileName: "components/About.js",
-                lineNumber: 23,
+                lineNumber: 22,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/About.js",
-        lineNumber: 6,
+        lineNumber: 5,
         columnNumber: 13
     }, undefined);
 };
@@ -37456,115 +37452,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../UserClass":"fSUde","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fSUde":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5d7b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5d7b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-class UserClass extends (0, _reactDefault.default).Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            userData: {}
-        };
-    }
-    async componentDidMount() {
-        const data = await fetch("https://api.github.com/users/pranav614");
-        const response = await data.json();
-        this.setState({
-            userData: response
-        });
-    }
-    render() {
-        const { name, id, location } = this.state.userData;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: name
-                }, void 0, false, {
-                    fileName: "UserClass.js",
-                    lineNumber: 31,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: id
-                }, void 0, false, {
-                    fileName: "UserClass.js",
-                    lineNumber: 32,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: location
-                }, void 0, false, {
-                    fileName: "UserClass.js",
-                    lineNumber: 33,
-                    columnNumber: 13
-                }, this)
-            ]
-        }, void 0, true);
-    }
-}
-exports.default = UserClass;
-
-  $parcel$ReactRefreshHelpers$5d7b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6WzUW":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$567b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$567b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _reactRouterDom = require("react-router-dom");
-var _s = $RefreshSig$();
-const Error = ()=>{
-    _s();
-    const route = (0, _reactRouterDom.useRouteError)();
-    console.log(route);
-    console.log(route.status);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            "OOPs error ",
-            route.status,
-            " ",
-            route.statusText,
-            " "
-        ]
-    }, void 0, true, {
-        fileName: "components/error.js",
-        lineNumber: 8,
-        columnNumber: 9
-    }, undefined);
-};
-_s(Error, "8bSq4M1Y92q5z7jT7nEb330jAbo=", false, function() {
-    return [
-        (0, _reactRouterDom.useRouteError)
-    ];
-});
-_c = Error;
-exports.default = Error;
-var _c;
-$RefreshReg$(_c, "Error");
-
-  $parcel$ReactRefreshHelpers$567b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1px0M":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1px0M":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1ce1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

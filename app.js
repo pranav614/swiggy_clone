@@ -5,7 +5,6 @@ import Body from './components/Body';
 import Header from './components/Header';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import About from './components/About';
-import Error from './components/error';
 import Menu from './components/Menu';
 import myStore from './utils/myStore'
 import { Outlet } from 'react-router-dom';
